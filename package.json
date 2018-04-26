@@ -1,6 +1,6 @@
 {
   "name": "svd-footer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The footer for svd.im projects",
   "main": "dist/main.js",
   "scripts": {
