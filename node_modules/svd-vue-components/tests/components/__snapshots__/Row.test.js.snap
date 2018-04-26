@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableComponent can display nested properties 1`] = `
+
+<div id="app">
+  <div class="row center">
+    <div class="column">
+      <div class="row center">
+        <div class="column">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`TableComponent can mount 1`] = `
+
+<div id="app">
+  <div class="row center">
+    <div class="column">
+    </div>
+  </div>
+</div>
+
+`;

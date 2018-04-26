@@ -1,0 +1,28 @@
+{
+  "name": "svd-footer",
+  "version": "0.0.1",
+  "description": "The footer for svd.im projects",
+  "main": "svd-footer.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvandiepen/svd-footer.git"
+  },
+  "keywords": [
+    "footer",
+    "svd",
+    "style"
+  ],
+  "author": "Sil van Diepen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvandiepen/svd-footer/issues"
+  },
+  "homepage": "https://github.com/silvandiepen/svd-footer#readme",
+  "dependencies": {
+    "svd-style": "^1.5.22",
+    "svd-vue-components": "^0.1.0"
+  }
+}
