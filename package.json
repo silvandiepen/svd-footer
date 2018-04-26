@@ -2,9 +2,11 @@
   "name": "svd-footer",
   "version": "0.0.1",
   "description": "The footer for svd.im projects",
-  "main": "svd-footer.vue",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rimraf /dist && webpack --config webpack.config.js --watch",
+    "build": "rimraf /dist && webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +23,29 @@
     "url": "https://github.com/silvandiepen/svd-footer/issues"
   },
   "homepage": "https://github.com/silvandiepen/svd-footer#readme",
-  "dependencies": {
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.9.0",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
     "svd-style": "^1.5.22",
-    "svd-vue-components": "^0.1.0"
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "vue": "^2.2.1",
+    "vue-cli": "^2.9.3",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^15.0.1",
+    "vue-style-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.0.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "svd-vue-components": "^0.1.2"
   }
 }
