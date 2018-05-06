@@ -7,11 +7,14 @@ const extractSass = new ExtractTextPlugin({
 });
 
 module.exports = {
-  entry: "./index.js",
+  entry: {
+    index: "./src/index.js"
+  },
   output: {
     path: path.resolve("dist"),
-    filename: "index.js"
+    filename: "main.js"
   },
+
   resolve: {
     alias: {
       vue: "vue/dist/vue.js"
