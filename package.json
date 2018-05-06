@@ -2,12 +2,13 @@
   "name": "svd-footer",
   "version": "0.0.8",
   "description": "The footer for svd.im projects",
-  "main": "main.js",
+  "main": "dist/index.js",
   "license": "MIT",
-  "private": true,
   "scripts": {
-    "start": "rm -rf dist && webpack --mode=development --config webpack.config.js --watch",
-    "build": "rm -rf dist && webpack --mode=production --config webpack.config.js",
+    "start":
+      "rm -rf dist && webpack --mode=development --config webpack.config.js --watch",
+    "build":
+      "rm -rf dist && webpack --mode=production --config webpack.config.js",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
