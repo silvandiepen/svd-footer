@@ -31,6 +31,11 @@
     </row>
   </footer>
 </template>
+<script>
+export default {
+  name: "SvdFooter"
+};
+</script>
 <style lang="scss">
 @import "~svd-style/ext";
 
@@ -54,7 +59,7 @@
 
 .copyright {
   font-size: rem(12);
-  color: color(White,.5);
+  color: color(White, 0.5);
 }
 .footerNav {
   &__list {
