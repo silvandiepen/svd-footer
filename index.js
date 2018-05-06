@@ -1,7 +1,5 @@
-// import styleSheet from "./index.scss";
-
 import Vue from "vue";
-import { SvdFooter } from "./src/Footer.vue";
+import { SvdFooter } from "./src/main.js";
 
 export default {
   install(Vue, options = {}) {
